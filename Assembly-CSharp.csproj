@@ -59,9 +59,18 @@
      <Compile Include="Assets\TestConsole.cs" />
      <None Include="Assets\DOTween\DOTween46.xml" />
      <None Include="Assets\Shaders\moveImages.shader" />
+     <None Include="Assets\Plugins\Android\res\values-w820dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
      <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\menu\main.xml" />
      <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v14\styles.xml" />
      <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/DevelopSoftware/unity3d5.3.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

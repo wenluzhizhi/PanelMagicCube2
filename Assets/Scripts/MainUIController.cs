@@ -8,6 +8,7 @@ public class MainUIController : MonoBehaviour {
 	public GamePageController gamePage;
 	public GameObject TipManager;
 	public Text tipTxt;
+	public GameObject QuitPanel;
 	public int DifficultDegree = 0;
 	public int selectPicNum=0;
 	//单例
@@ -25,6 +26,7 @@ public class MainUIController : MonoBehaviour {
 
 	void Start(){
 		OpenSelectPagePanel ();
+		CancleQuit ();
 	}
 
 	public void OpenGamePanel(){
@@ -46,5 +48,20 @@ public class MainUIController : MonoBehaviour {
 	public void OnClickCloseTipManager(){
 		TipManager.gameObject.SetActive (false);
 	}
+	public float _timer=0.0f;
+	void Update(){
 
+
+		if (Input.GetKey (KeyCode.Escape)) {
+			QuitPanel.gameObject.SetActive (true);
+		}
+	}
+
+	public void ConfirmQuit(){
+		Application.Quit ();
+	}
+
+	public void CancleQuit(){
+		QuitPanel.gameObject.SetActive (false);
+	}
 }
